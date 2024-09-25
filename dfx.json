@@ -1,0 +1,23 @@
+{
+  "canisters": {
+    "dappcon_backend": {
+      "candid": "src/dappcon_backend/dappcon_backend.did",
+      "package": "dappcon_backend",
+      "type": "rust",
+      "dependencies": ["evm_rpc"],
+      "specified_id": "2222s-4iaaa-aaaaf-ax2uq-cai"
+    },
+    "evm_rpc": {
+      "type": "pull",
+      "id": "7hfb6-caaaa-aaaar-qadga-cai"
+    }
+  },
+  "defaults": {
+    "build": {
+      "args": "",
+      "packtool": ""
+    }
+  },
+  "output_env_file": ".env",
+  "version": 1
+}
